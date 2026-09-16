@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this learning case, cite it and record the exact commit used. See CITATION.md and LICENSES.md."
+type: software
+title: "CO₂–H₂O nozzle condensation: a Fluent case covering the full workflow"
+authors:
+  - name: "zanekung"
+    website: "https://github.com/zanekung"
+repository-code: "https://github.com/zanekung/co2-h2o-fluent-condensation"
+url: "https://github.com/zanekung/co2-h2o-fluent-condensation"
+date-released: 2026-09-16
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - computational fluid dynamics
+  - ANSYS Fluent
+  - nonequilibrium condensation
+  - supersonic nozzle
+  - learning case
+abstract: >-
+  A bilingual learning case for nonequilibrium water condensation in a
+  CO2-H2O mixture flowing through a supersonic nozzle. Includes UDF source,
+  mesh, native Case/Data, exported results, and verification records.
+  Physical validation and a Fluent read test of the public native copies
+  remain incomplete. The author entry identifies the publishing GitHub
+  account. Licensing scopes and third-party exclusions are in LICENSES.md.

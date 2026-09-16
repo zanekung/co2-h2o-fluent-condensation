@@ -1,0 +1,10 @@
+{
+  "checked_at_utc": "2026-09-16T06:55:59.122833+00:00",
+  "status": "PASS",
+  "scope": "Known source username/host byte-pattern scan, decompressed gzip, decoded HDF string datasets/attributes and PNG text-metadata check; no identifiers retained in this report.",
+  "known_machine_identity_matches": 0,
+  "png_text_metadata_chunks_checked": 0,
+  "sanitized_native_case_data_included": true,
+  "original_private_path_binaries_included": false,
+  "limit": "This is a targeted technical check, not proof of all possible privacy or third-party rights."
+}

@@ -1,0 +1,323 @@
+{
+  "created_date": "2026-09-16",
+  "scope": "Local public-case candidate, not uploaded.",
+  "origin": "One recorded Windows Fluent 2026 R1 Student learning run; original full archive retained privately.",
+  "source_labels_are_archive_relative_not_machine_paths": true,
+  "numerical_fields_changed": false,
+  "excluded": [
+    "Unpublished manuscripts",
+    "Zotero library and PDFs",
+    "ANSYS binaries and headers",
+    "Compiled UDF libraries",
+    "Native EnSight backups with embedded private paths",
+    "Local connection files",
+    "Original machine-specific launchers",
+    "Unlabeled blue-fill display variant",
+    "Unmodified native files containing private paths",
+    "Fluent automatic preparation program"
+  ],
+  "files": [
+    {
+      "path": "udf/co2_h2o_condensation.c",
+      "source_label": "udf/co2_h2o_condensation.c",
+      "source_sha256": "7ae9c8f26a5bc6a3c57a9fdff36161b0ca8d97ffcbbd8c34e8e2ca7f3adff2e8",
+      "public_sha256": "7ae9c8f26a5bc6a3c57a9fdff36161b0ca8d97ffcbbd8c34e8e2ca7f3adff2e8",
+      "transformation": "byte_identical",
+      "source_bytes": 6836,
+      "public_bytes": 6836
+    },
+    {
+      "path": "udf/condensation_core.c",
+      "source_label": "udf/condensation_core.c",
+      "source_sha256": "5c757e6031ac704e689c96f927650a2a8eb651ad1977bf17abf7fa35e0df1fab",
+      "public_sha256": "5c757e6031ac704e689c96f927650a2a8eb651ad1977bf17abf7fa35e0df1fab",
+      "transformation": "byte_identical",
+      "source_bytes": 8252,
+      "public_bytes": 8252
+    },
+    {
+      "path": "udf/condensation_core.h",
+      "source_label": "udf/condensation_core.h",
+      "source_sha256": "6ddce9aaaff6f2529fdba51c3b298cb136b82de59a8414f4295c087cf6d50a3b",
+      "public_sha256": "6ddce9aaaff6f2529fdba51c3b298cb136b82de59a8414f4295c087cf6d50a3b",
+      "transformation": "byte_identical",
+      "source_bytes": 2297,
+      "public_bytes": 2297
+    },
+    {
+      "path": "udf/quasi1d_initialization.c",
+      "source_label": "udf/quasi1d_initialization.c",
+      "source_sha256": "8ce7c3c7a218da1ea3f291ec87080b7e6768bf24e79910941eb3d903a15d3869",
+      "public_sha256": "8ce7c3c7a218da1ea3f291ec87080b7e6768bf24e79910941eb3d903a15d3869",
+      "transformation": "byte_identical",
+      "source_bytes": 8478,
+      "public_bytes": 8478
+    },
+    {
+      "path": "mesh/paper_nozzle_30000.msh",
+      "source_label": "mesh/paper_nozzle_30000.msh",
+      "source_sha256": "00cc474d4639984b52d132167c4ae9a0d0bd162ba875aa7de9223c2aa49bbb9e",
+      "public_sha256": "00cc474d4639984b52d132167c4ae9a0d0bd162ba875aa7de9223c2aa49bbb9e",
+      "transformation": "byte_identical",
+      "source_bytes": 2574451,
+      "public_bytes": 2574451
+    },
+    {
+      "path": "mesh/mesh_metadata.json",
+      "source_label": "mesh/mesh_metadata.json",
+      "source_sha256": "6e5b178e414162214d99851d768d30ed0fa0cb9cc03f8038d30bf39e460f3fb7",
+      "public_sha256": "6e5b178e414162214d99851d768d30ed0fa0cb9cc03f8038d30bf39e460f3fb7",
+      "transformation": "byte_identical",
+      "source_bytes": 694,
+      "public_bytes": 694
+    },
+    {
+      "path": "mesh/wall_coordinates_m.csv",
+      "source_label": "mesh/wall_coordinates_m.csv",
+      "source_sha256": "d331b93a100ad0b80a5f37e44755e3c58b0dcb09af18b3c5d37f0708b9f01b44",
+      "public_sha256": "d331b93a100ad0b80a5f37e44755e3c58b0dcb09af18b3c5d37f0708b9f01b44",
+      "transformation": "byte_identical",
+      "source_bytes": 13789,
+      "public_bytes": 13789
+    },
+    {
+      "path": "docs/field_dictionary.csv",
+      "source_label": "docs/field_dictionary.csv",
+      "source_sha256": "5e8a73344f112ca0ec300cf437d91ee78630abd6c19683529a154da506aeab6e",
+      "public_sha256": "5e8a73344f112ca0ec300cf437d91ee78630abd6c19683529a154da506aeab6e",
+      "transformation": "byte_identical",
+      "source_bytes": 2133,
+      "public_bytes": 2133
+    },
+    {
+      "path": "tools/mesh/build_paper_mesh.py",
+      "source_label": "tools/mesh/build_paper_mesh.py",
+      "source_sha256": "f0b11a242cc0179188d3180849872d4f91e0f41e772dcd02ab1ca9519053016e",
+      "public_sha256": "f0b11a242cc0179188d3180849872d4f91e0f41e772dcd02ab1ca9519053016e",
+      "transformation": "byte_identical",
+      "source_bytes": 4227,
+      "public_bytes": 4227
+    },
+    {
+      "path": "tools/mesh/mesh_writer.py",
+      "source_label": "tools/mesh/mesh_writer.py",
+      "source_sha256": "93ccfa5c69117389d4655e108805ac1ea2f1976254ff85a04413a2d714b112d1",
+      "public_sha256": "93ccfa5c69117389d4655e108805ac1ea2f1976254ff85a04413a2d714b112d1",
+      "transformation": "byte_identical",
+      "source_bytes": 7429,
+      "public_bytes": 7429
+    },
+    {
+      "path": "data/final/all-cells-100000.csv.gz",
+      "source_label": "data/final/all-cells-100000.csv",
+      "source_sha256": "2888c1611727b7fb74699c8647534cdf0983d6a7c00c1a3c1d9a4de03112b0d4",
+      "public_sha256": "791e30a4c25e9f60b3a32a9b900df1416dffd97bd971d6a2e1fb11f3a7b316a1",
+      "transformation": "lossless_gzip",
+      "source_bytes": 19712645,
+      "public_bytes": 4861999
+    },
+    {
+      "path": "data/history/physics-history.out.gz",
+      "source_label": "logs/physics-history.out.gz",
+      "source_sha256": "f192717722c176348fae6bc15ddad3cd53567637d5581958035192e7759b255f",
+      "public_sha256": "f192717722c176348fae6bc15ddad3cd53567637d5581958035192e7759b255f",
+      "transformation": "byte_identical",
+      "source_bytes": 16113034,
+      "public_bytes": 16113034
+    },
+    {
+      "path": "figures/figure2_cn.png",
+      "source_label": "figures/gray_mask/\u56fe2_\u4e2d\u6587_ANSYS.png",
+      "source_sha256": "fc513a9e5dad615bae6440d98e9918d72cb8644e1bfdb91d1d2ebc4dc8f2ca92",
+      "public_sha256": "fc513a9e5dad615bae6440d98e9918d72cb8644e1bfdb91d1d2ebc4dc8f2ca92",
+      "transformation": "byte_identical",
+      "source_bytes": 1439198,
+      "public_bytes": 1439198
+    },
+    {
+      "path": "figures/figure2_en.png",
+      "source_label": "figures/gray_mask/Fig2_English_ANSYS.png",
+      "source_sha256": "754378ec68895485893ac2c2a7ea86165d4524ffe61f8e7fce89b8615514c915",
+      "public_sha256": "754378ec68895485893ac2c2a7ea86165d4524ffe61f8e7fce89b8615514c915",
+      "transformation": "byte_identical",
+      "source_bytes": 1472787,
+      "public_bytes": 1472787
+    },
+    {
+      "path": "verification/recorded_run_status.json",
+      "source_label": "verification/full_run/FINAL_RUN_STATUS.json",
+      "source_sha256": "6a4520ac54f7b1d5c589d1104c256f875eabb3ab7c7edf1cfaa8c2345d1c4222",
+      "public_sha256": "32b42fe2e682f6f36c03074e7b1465e1fd982e69d413ca09a185f7145e6d0b39",
+      "transformation": "redacted_paths_and_machine_identifiers_json_reformatted",
+      "source_bytes": 1519,
+      "public_bytes": 1447
+    },
+    {
+      "path": "verification/recorded_hdf_finiteness.json",
+      "source_label": "verification/full_run/audit_finite_final_100000.json",
+      "source_sha256": "d21f75a4ff0be99d895cb517c10e60cee84161a238a4b8c9b276c3bcff093371",
+      "public_sha256": "75b7fdb48360c4bc62725b9e81badacb57ffbebadae02d1726127c4c976335ef",
+      "transformation": "redacted_paths_and_machine_identifiers_json_reformatted",
+      "source_bytes": 19168,
+      "public_bytes": 18188
+    },
+    {
+      "path": "verification/recorded_radius_stage_audit.json",
+      "source_label": "postprocessing/audit/stage_boundaries_and_radius_mask.json",
+      "source_sha256": "9c722b3db8015a651506b246e90aba1f6ccf5aafcedee076775fce0838e62a99",
+      "public_sha256": "3161a3bc3002809034bf64aef5094942953d802ce77aff1fdc51d6054a48cf42",
+      "transformation": "redacted_paths_and_machine_identifiers_json_reformatted",
+      "source_bytes": 195323,
+      "public_bytes": 188466
+    },
+    {
+      "path": "verification/recorded_ensight_mask.json",
+      "source_label": "postprocessing/ANSYS_Workspace/native_mask_verification.json",
+      "source_sha256": "84c94d830f9f262c2ab9622324e1aa1cba452fd99ffbd233b05816522ae71f11",
+      "public_sha256": "055f181a2c904c379e84ebd7d968df5112f10d6ea23833f99b2ca8df5267e6da",
+      "transformation": "redacted_paths_and_machine_identifiers_json_reformatted",
+      "source_bytes": 426,
+      "public_bytes": 412
+    },
+    {
+      "path": "verification/recorded_ensight_restore.json",
+      "source_label": "postprocessing/ANSYS_Workspace/native_restore_verification.json",
+      "source_sha256": "30bb958017dfe2a531780f87d8b29ab3c960ee1968b34031434f69c99c9a02cb",
+      "public_sha256": "45eba2a4a34e1d951af9ce12944e8016edbf9e9d128773f966c6634e093f2415",
+      "transformation": "redacted_paths_and_machine_identifiers_json_reformatted",
+      "source_bytes": 672,
+      "public_bytes": 652
+    },
+    {
+      "path": "verification/recorded_mesh_rebuild_check.json",
+      "source_label": "verification/packaging/mesh_rebuild_check.json",
+      "source_sha256": "e25b02d7f978a89d6322057d569aeffdf769b086d5e57984d3e82007b6ba27b0",
+      "public_sha256": "4e05d2c31ab4fa93d80336f0dabf06179c936ab51101cc68744604754190a9b3",
+      "transformation": "redacted_paths_and_machine_identifiers_json_reformatted",
+      "source_bytes": 3569,
+      "public_bytes": 3570
+    },
+    {
+      "path": "verification/recorded_core_verification.json",
+      "source_label": "verification/implementation_and_short_tests/core_verification.json",
+      "source_sha256": "3211bbdd1654cc6c75ec712db79a8580c184d285c3a0efe94cd331b86f1deb45",
+      "public_sha256": "bb210880a32954344fdf5b822c23ff6347e44ebf33146de6fac7748600968cb2",
+      "transformation": "redacted_paths_and_machine_identifiers_json_reformatted",
+      "source_bytes": 415,
+      "public_bytes": 410
+    },
+    {
+      "path": "verification/recorded_quasi1d_verification.json",
+      "source_label": "verification/implementation_and_short_tests/quasi1d_verification.json",
+      "source_sha256": "526152cab6c21316a1d7a45c0c542e292bf7c35ec8c43a93433a11c62c43a51f",
+      "public_sha256": "6904e50435c40604ed52ba0e05b702c244b269acb2901d5ffbf8babb4bf5eb67",
+      "transformation": "redacted_paths_and_machine_identifiers_json_reformatted",
+      "source_bytes": 892,
+      "public_bytes": 887
+    },
+    {
+      "path": "logs/solver_transcript.redacted.log.gz",
+      "source_label": "original_full_run_solver_transcript",
+      "source_sha256": "76952aff9eb9ac2a4fc118db8a233bfbce47b7e7ce80379aff8ae110f3665286",
+      "public_sha256": "a226d0bad03389bbcad84bcb6d763c289fde982316b53e2ebe15d2c9b19ad168",
+      "decompressed_public_sha256": "18a0207669c9a6fa84197add8dad956d85fc61b0be17b798013cfebe8f6ae4ba",
+      "transformation": "machine_path_identity_redaction_then_lossless_gzip",
+      "text_encoding": "Original Windows transcript bytes retained; only identifiable path/host byte strings replaced.",
+      "source_bytes": 75612768,
+      "public_bytes": 11507341
+    },
+    {
+      "path": "tests/core/test_core.c",
+      "source_label": "history/implementation_tests/test_core.c",
+      "source_sha256": "736b6c2f56b829b8e64b65fd69710eaabb50410471705879d4d2f25ace15e00a",
+      "public_sha256": "736b6c2f56b829b8e64b65fd69710eaabb50410471705879d4d2f25ace15e00a",
+      "transformation": "byte_identical",
+      "source_bytes": 8256,
+      "public_bytes": 8256
+    },
+    {
+      "path": "tests/core/test_quasi1d.c",
+      "source_label": "history/implementation_tests/test_quasi1d.c",
+      "source_sha256": "5a332f76eb10dda8ae5fdc8ffc4b32ccce73384c99caefe3b6064a5194028b0f",
+      "public_sha256": "5a332f76eb10dda8ae5fdc8ffc4b32ccce73384c99caefe3b6064a5194028b0f",
+      "transformation": "byte_identical",
+      "source_bytes": 4855,
+      "public_bytes": 4855
+    },
+    {
+      "path": "tests/core/quasi1d_initialization.inc",
+      "source_label": "history/implementation_tests/quasi1d_initialization.inc",
+      "source_sha256": "8ce7c3c7a218da1ea3f291ec87080b7e6768bf24e79910941eb3d903a15d3869",
+      "public_sha256": "8ce7c3c7a218da1ea3f291ec87080b7e6768bf24e79910941eb3d903a15d3869",
+      "transformation": "byte_identical",
+      "source_bytes": 8478,
+      "public_bytes": 8478
+    },
+    {
+      "path": "native/final-100000.cas.h5",
+      "source_label": "final_exports/final-100000.cas.h5",
+      "source_sha256": "24037f509194a91a098d69776505695b2b05e58faba8ce38129566455a1f9206",
+      "public_sha256": "24afbd704fe0aa72e5e13b6814f7ed9b28eee17d92bade525fead7067e505014",
+      "source_bytes": 1237299,
+      "public_bytes": 1222515,
+      "transformation": "hdf_semantic_copy_path_metadata_only",
+      "audit": "verification/native_files_check.json"
+    },
+    {
+      "path": "native/final-100000.dat.h5",
+      "source_label": "final_exports/final-100000.dat.h5",
+      "source_sha256": "216b171b3ae85821812082594ad652b02ad5650f90a23e54378c7ee425295e13",
+      "public_sha256": "900785c954e1301ea767d99e4dca9c89c69b7c099d4e6a3fe04d7eca961998f7",
+      "source_bytes": 12854565,
+      "public_bytes": 12838321,
+      "transformation": "hdf_semantic_copy_path_metadata_only",
+      "audit": "verification/native_files_check.json"
+    },
+    {
+      "path": "native/co2_h2o_condensation.c",
+      "source_label": "co2_h2o_condensation.c",
+      "source_sha256": "7ae9c8f26a5bc6a3c57a9fdff36161b0ca8d97ffcbbd8c34e8e2ca7f3adff2e8",
+      "public_sha256": "7ae9c8f26a5bc6a3c57a9fdff36161b0ca8d97ffcbbd8c34e8e2ca7f3adff2e8",
+      "transformation": "byte_identical",
+      "source_bytes": 6836,
+      "public_bytes": 6836
+    },
+    {
+      "path": "native/condensation_core.c",
+      "source_label": "condensation_core.c",
+      "source_sha256": "5c757e6031ac704e689c96f927650a2a8eb651ad1977bf17abf7fa35e0df1fab",
+      "public_sha256": "5c757e6031ac704e689c96f927650a2a8eb651ad1977bf17abf7fa35e0df1fab",
+      "transformation": "byte_identical",
+      "source_bytes": 8252,
+      "public_bytes": 8252
+    },
+    {
+      "path": "native/condensation_core.h",
+      "source_label": "condensation_core.h",
+      "source_sha256": "6ddce9aaaff6f2529fdba51c3b298cb136b82de59a8414f4295c087cf6d50a3b",
+      "public_sha256": "6ddce9aaaff6f2529fdba51c3b298cb136b82de59a8414f4295c087cf6d50a3b",
+      "transformation": "byte_identical",
+      "source_bytes": 2297,
+      "public_bytes": 2297
+    },
+    {
+      "path": "native/quasi1d_initialization.c",
+      "source_label": "quasi1d_initialization.c",
+      "source_sha256": "8ce7c3c7a218da1ea3f291ec87080b7e6768bf24e79910941eb3d903a15d3869",
+      "public_sha256": "8ce7c3c7a218da1ea3f291ec87080b7e6768bf24e79910941eb3d903a15d3869",
+      "transformation": "byte_identical",
+      "source_bytes": 8478,
+      "public_bytes": 8478
+    },
+    {
+      "path": "native/export_final.jou",
+      "source_label": "export_final.jou",
+      "source_sha256": "2d63b98f2d767b6ebc285c132dacb47000e54b99aa9f1cc135140c96766daa0c",
+      "public_sha256": "c401b695224603ce25e1144ef9d6df1a9713a59eed342f04e5149087a72f7318",
+      "transformation": "journal_absolute_paths_to_relative_only",
+      "source_bytes": 2768,
+      "public_bytes": 2186
+    }
+  ],
+  "native_file_scope": "Full final Case/Data; only file-path metadata sanitized; Fluent import of these copies remains unverified because local startup was blocked."
+}

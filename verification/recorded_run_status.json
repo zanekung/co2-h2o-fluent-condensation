@@ -1,0 +1,58 @@
+{
+  "status": "FULL_RUN_COMPLETED_PENDING_ASSESSMENT",
+  "classification": "STUDENT_LEARNING_AND_SOFTWARE_VALIDATION_ONLY_NOT_PUBLICATION_DATA",
+  "planned_steps": 100000,
+  "planned_duration_s": 0.01,
+  "completed_steps": 100000,
+  "physical_time_s": 0.01,
+  "single_calculate_request": true,
+  "full_run_completed": true,
+  "physical_model_validated": false,
+  "stop_reason": null,
+  "consecutive_unconverged_steps": 0,
+  "updated_at_utc": "2026-09-13T06:15:41.810718+00:00",
+  "elapsed_wall_s": 54311.75,
+  "seconds_since_log_activity": 0.0,
+  "last_step_residual_row_count": 2,
+  "last_step_convergence_message": true,
+  "observed_seconds_per_step": 0.543093,
+  "simple_remaining_hours_estimate": 0.0,
+  "final_exports": [
+    {
+      "name": "all-cells-100000.csv",
+      "bytes": 19712645
+    },
+    {
+      "name": "fig2-a-pressure-100000.png",
+      "bytes": 44869
+    },
+    {
+      "name": "fig2-b-temperature-100000.png",
+      "bytes": 64749
+    },
+    {
+      "name": "fig2-c-supersaturation-100000.png",
+      "bytes": 60761
+    },
+    {
+      "name": "fig2-d-nucleation-100000.png",
+      "bytes": 34968
+    },
+    {
+      "name": "fig2-e-liquid-fraction-100000.png",
+      "bytes": 53182
+    },
+    {
+      "name": "fig2-f-droplet-radius-100000.png",
+      "bytes": 29483
+    },
+    {
+      "name": "final-100000.cas.h5",
+      "bytes": 1237299
+    },
+    {
+      "name": "final-100000.dat.h5",
+      "bytes": 12854565
+    }
+  ]
+}

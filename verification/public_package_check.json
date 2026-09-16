@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "scope": "Local integrity, source correspondence, links, Python syntax, basic public-scope scan and CSV/history checks; no Fluent or physical validation.",
+  "files_checked": 68,
+  "source_artifacts_checked": 33,
+  "links_checked": 116,
+  "python_modules_parsed": 6,
+  "native_files_hash_checked": 2,
+  "native_semantic_audit": "Recorded separately; run tools/verify_native.py with h5py to repeat current-file HDF checks.",
+  "native_fluent_read_status": "NOT_VERIFIED_RUNTIME_BLOCKED",
+  "data_summary": {
+    "cells": 30000,
+    "columns": 39,
+    "history_rows": 100001,
+    "nonfinite_values": 0,
+    "radius_mask": {
+      "liquid_loading_min_exclusive": 1e-12,
+      "number_min_exclusive": 0,
+      "valid_cells": 15035,
+      "radius_nm_min": 7.227061527,
+      "radius_nm_max": 129.79248819999998,
+      "raw_global_radius_nm_max": 780768.1243
+    }
+  },
+  "privacy_scan_limit": "Pattern checks, not a guarantee about every possible identifier or legal permission.",
+  "errors": []
+}

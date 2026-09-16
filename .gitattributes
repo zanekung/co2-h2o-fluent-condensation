@@ -1,0 +1,4 @@
+# Preserve scientific inputs and provenance hashes across platforms.
+* -text
+*.png binary
+*.gz binary

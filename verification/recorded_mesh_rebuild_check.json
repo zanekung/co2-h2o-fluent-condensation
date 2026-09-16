@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-09-16T01:13:38.250835+00:00",
+  "scope": "Offline packaging check: exact mesh reconstruction, required output path, safe import and overwrite refusal. No Fluent process, solve, mesh quality or physical validation was run.",
+  "python": {
+    "implementation": "CPython",
+    "version": "3.10.19",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "reference": {
+    "role": "actual completed Fluent run input mesh",
+    "run_name": "Fuel_Student_FullValidation_20260912_2310",
+    "relative_path": "paper_nozzle_30000.msh",
+    "sha256": "00cc474d4639984b52d132167c4ae9a0d0bd162ba875aa7de9223c2aa49bbb9e"
+  },
+  "source_provenance": {
+    "historical_build_paper_mesh.py_sha256": "428627ca733ab5edde16376f8f8d648eb915aa4b8b7ac86cbf645c4f7ba29c5e",
+    "historical_generate_mesh.py_sha256": "ddacc63ed8a89cf306c3d9a842ed0ac14a771c0d811d3b5fe3db30123125ae8e"
+  },
+  "packaged_sources": {
+    "tools/mesh/build_paper_mesh.py": "f0b11a242cc0179188d3180849872d4f91e0f41e772dcd02ab1ca9519053016e",
+    "tools/mesh/mesh_writer.py": "93ccfa5c69117389d4655e108805ac1ea2f1976254ff85a04413a2d714b112d1"
+  },
+  "changes": [
+    "Standalone local mesh_writer import replaces the legacy sibling project path import.",
+    "Only Geometry, node_id, quad_metrics, write_gmsh and write_fluent_native were retained from the legacy writer module; no legacy geometry CLI or alternate formula is exposed.",
+    "Geometry fields are required rather than retaining unused old geometry defaults.",
+    "Mesh expressions, ordering, .16e numeric formatting, connectivity and Fluent title are unchanged.",
+    "Generation moved into build()/main() with required --output-dir and no import-time writes.",
+    "All four outputs use exclusive creation; a preflight rejects existing target names before writing."
+  ],
+  "checks": {
+    "import_without_side_effects": {
+      "exit_code": 0,
+      "created_files": 0,
+      "stdout_empty": true,
+      "stderr_empty": true
+    },
+    "mandatory_output_directory": {
+      "exit_code": 2,
+      "required_argument_error": true,
+      "no_default_outputs": true
+    },
+    "generation": {
+      "exit_code": 0,
+      "stderr": ""
+    },
+    "actual_run_mesh_match": {
+      "reference_sha256": "00cc474d4639984b52d132167c4ae9a0d0bd162ba875aa7de9223c2aa49bbb9e",
+      "generated_sha256": "00cc474d4639984b52d132167c4ae9a0d0bd162ba875aa7de9223c2aa49bbb9e",
+      "byte_for_byte_identical": true,
+      "reference_bytes": 2574451
+    },
+    "refuses_overwrite": {
+      "exit_code": 2,
+      "refusal_message": true,
+      "all_four_outputs_unchanged": true
+    }
+  },
+  "generated_files": {
+    "mesh_metadata.json": {
+      "bytes": 694,
+      "sha256": "6e5b178e414162214d99851d768d30ed0fa0cb9cc03f8038d30bf39e460f3fb7"
+    },
+    "paper_nozzle_30000.gmsh": {
+      "bytes": 2804908,
+      "sha256": "df12caa86088a726a6eed384abdad991280b0b00b795ca1ace5a0b810e5b3923"
+    },
+    "paper_nozzle_30000.msh": {
+      "bytes": 2574451,
+      "sha256": "00cc474d4639984b52d132167c4ae9a0d0bd162ba875aa7de9223c2aa49bbb9e"
+    },
+    "wall_coordinates_m.csv": {
+      "bytes": 13789,
+      "sha256": "d331b93a100ad0b80a5f37e44755e3c58b0dcb09af18b3c5d37f0708b9f01b44"
+    }
+  },
+  "geometry_summary": {
+    "cells": 30000,
+    "nodes": 30476,
+    "geometry_m": {
+      "inlet_straight_length": 0.0,
+      "converging_length": 0.1,
+      "diverging_length": 0.15,
+      "inlet_radius": 0.01995,
+      "throat_radius": 0.00645,
+      "exit_radius": 0.00775
+    }
+  },
+  "temporary_generated_outputs_retained": false
+}

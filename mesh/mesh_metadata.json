@@ -1,0 +1,19 @@
+{
+  "geometry_m": {
+    "inlet_straight_length": 0.0,
+    "converging_length": 0.1,
+    "diverging_length": 0.15,
+    "inlet_radius": 0.01995,
+    "throat_radius": 0.00645,
+    "exit_radius": 0.00775
+  },
+  "cells": 30000,
+  "nodes": 30476,
+  "min_plane_cell_area_m2": 8.875528077789165e-10,
+  "wall_first_cell_height_throat_m": 2.6626472279483225e-06,
+  "throat_x_m": 0.1,
+  "wall_curve": "Rt/sqrt(1-(1-(Rt/Rin)^2)*(1-(x/L)^2)^2/(1+(x/L)^2/3)^3)",
+  "curve_reference": "https://doi.org/10.1016/j.csite.2023.103089",
+  "mesh_origin": "programmatic structured mesh, not ANSYS Mechanical",
+  "status": "geometry only, Fluent quality check required; no mesh independence claim"
+}

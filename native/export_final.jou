@@ -1,0 +1,30 @@
+; Research candidate export only. Export does not certify convergence.
+; %t appends Fluent's current time-step index; no fixed final file name.
+/file/write-case-data "./final_exports/final-%t.cas.h5"
+/file/export/ascii "./final_exports/all-cells-%t.csv" () yes absolute-pressure temperature density axial-velocity radial-velocity mach-number h2o co2 liquid-loading-kg-liquid-per-kg-gas droplet-number-per-kg-gas-div-1e15 h2o-supersaturation h2o-dewpoint-k h2o-supercooling-k nucleation-applied-m3-s critical-radius-m droplet-radius-m droplet-growth-rate-m-s condensation-source-raw-kg-m3-s condensation-source-applied-kg-m3-s liquid-density-kg-m3 surface-tension-n-m ideal-fugacity-coefficient ideal-z source-limiter-flag model-risk-flag nucleation-raw-m3-s positive-condensation-kg-m3-s evaporation-kg-m3-s liquid-mass-fraction-beta droplet-number-density-m3 empty-droplet-number-sink-m3-s nucleation-cap-flag birth-mass-applied-kg-m3-s growth-mass-applied-kg-m3-s energy-source-temperature-jacobian-w-m3-k energy-source-cached-w-m3 () yes
+/display/objects/display fig2-a-pressure
+/display/views/auto-scale
+/display/views/camera/zoom 2.2
+/display/save-picture "./final_exports/fig2-a-pressure-%t.png"
+/display/objects/display fig2-b-temperature
+/display/views/auto-scale
+/display/views/camera/zoom 2.2
+/display/save-picture "./final_exports/fig2-b-temperature-%t.png"
+/display/objects/display fig2-c-supersaturation
+/display/views/auto-scale
+/display/views/camera/zoom 2.2
+/display/save-picture "./final_exports/fig2-c-supersaturation-%t.png"
+/display/objects/display fig2-d-nucleation
+/display/views/auto-scale
+/display/views/camera/zoom 2.2
+/display/save-picture "./final_exports/fig2-d-nucleation-%t.png"
+/display/objects/display fig2-e-liquid-fraction
+/display/views/auto-scale
+/display/views/camera/zoom 2.2
+/display/save-picture "./final_exports/fig2-e-liquid-fraction-%t.png"
+/display/objects/display fig2-f-droplet-radius
+/display/views/auto-scale
+/display/views/camera/zoom 2.2
+/display/save-picture "./final_exports/fig2-f-droplet-radius-%t.png"
+/file/auto-save/root-name "./checkpoints/checkpoint"
+(display "FUEL_NATIVE_END_EXPORT_FINISHED\n")

@@ -1,0 +1,19 @@
+{
+  "checked_date": "2026-09-16",
+  "status": "NOT_VERIFIED_RUNTIME_BLOCKED",
+  "attempted_environment": "Windows Fluent 2026 R1 Student, 2D double precision, 4 solver processes",
+  "blocker": "Windows Code Integrity blocked the installed ANSYS Qt5Widgets.dll before case reading began.",
+  "windows_event_ids": [
+    3077,
+    3033
+  ],
+  "original_library_or_security_policy_modified": false,
+  "case_read_completed": false,
+  "data_read_completed": false,
+  "initialization_called": false,
+  "solver_iterations_called": false,
+  "original_case_compile_file_list_empty": true,
+  "automatic_udf_rebuild_tested": false,
+  "fluent_2024_R2_tested": false,
+  "next_validation": "On a functioning authorized installation, build/load libfuel from supplied source and read the matched Case/Data; confirm 100000 steps, flow time 0.01 s, 2 UDS, 26 UDM, intact hooks and available fields without initialization or Calculate."
+}

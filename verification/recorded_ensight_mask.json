@@ -1,0 +1,16 @@
+{
+  "radius_kept_cells": 15035,
+  "radius_min_nm": 7.227061615822095,
+  "radius_max_nm": 129.79248253941478,
+  "all_kept_L_above_threshold": true,
+  "all_kept_N_positive": true,
+  "all_kept_radius_finite": true,
+  "original_case_cells_after_filter": 30000,
+  "raw_radius_max_nm": 780768.1104168296,
+  "variable_locations": {
+    "Scalar_0": 1,
+    "Scalar_1": 1,
+    "UDM_5": 1
+  },
+  "native_element_enum": 1
+}

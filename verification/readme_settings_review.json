@@ -1,0 +1,132 @@
+{
+  "checked_at_utc": "2026-09-16T06:54:39.040191+00:00",
+  "status": "PASS_DOCUMENTATION_SOURCE_REVIEW",
+  "scope": "README manual instructions compared with historical explicit settings, recorded production controls, final Case values, project UDF source, and official Fluent documentation. Not a new GUI run.",
+  "documents": [
+    "README.md",
+    "README.en.md",
+    "docs/manual_setup.md"
+  ],
+  "native_case_sha256": "24afbd704fe0aa72e5e13b6814f7ed9b28eee17d92bade525fead7067e505014",
+  "historical_sources": [
+    {
+      "source_label": "historical/scripts/rebuild_model.py",
+      "sha256": "7cb5c10e4eae733b23b0144cf04911818d78bf516fe4f225d66e1fe658f1d85d",
+      "distribution": "Privately archived historical configuration, intentionally omitted from the public package; replaced by manual instructions."
+    },
+    {
+      "source_label": "historical/scripts/prepare_and_open.py",
+      "sha256": "5971ee4ff34cae27301f129dba57acef3e1fae0436c4ab3ca28a2de950584f8a",
+      "distribution": "Privately archived historical configuration, intentionally omitted from the public package; replaced by manual instructions."
+    },
+    {
+      "source_label": "historical/scripts/configure_outputs.py",
+      "sha256": "7bb2731e1130b38f3b86cea82a93f8652e209faba2517b5fa623efbbe02b988b",
+      "distribution": "Privately archived historical configuration, intentionally omitted from the public package; replaced by manual instructions."
+    },
+    {
+      "source_label": "historical/VALIDATION_START.json",
+      "sha256": "94aa967e3fe0b05857bc933edc5d618a984cbf10fafc78da497e82bbdaba6416"
+    }
+  ],
+  "coverage": [
+    "launcher and mesh units",
+    "general models",
+    "mixture and species properties",
+    "2 UDS and 26 UDM",
+    "3 C sources plus 1 header, Build and Load",
+    "all 7 cell-zone sources",
+    "global UDS diffusivity",
+    "Initialization, Adjust and Execute At End hooks",
+    "On-Demand initialization versus diagnostics",
+    "inlet/outlet/wall boundaries",
+    "standard initialization and quasi-1D guess",
+    "dry SIMPLE preparation",
+    "production PISO controls",
+    "27 report definitions",
+    "per-step report file",
+    "500-step paired autosave",
+    "6 contour objects",
+    "native end-export journal",
+    "ready and final Case/Data readback checks"
+  ],
+  "confirmed_final_case_values": {
+    "uds/inlet-diffusion?": "#t",
+    "species/thermal-diffusion?": "#f",
+    "species/multicomponent-diffusion?": "#f",
+    "species/inlet-diffusion?": "#f",
+    "species/sct": "0.7",
+    "energy/species-diffusion?": "#t",
+    "viscous-energy-dissipation?": "#f",
+    "material/enthalpy-reference-temperature": "298.15",
+    "uds/relax": "(0.3 0.3)",
+    "species/relax": "(0.5 1)",
+    "temperature/relax": "0.3",
+    "physical-time-step": "1e-07",
+    "time-step": "100000",
+    "flow-time": "0.01"
+  },
+  "inherited_not_claimed_nondefault": {
+    "gas_mass_diffusivity": {
+      "option": "constant-dilute-appx",
+      "value_m2_s": 2.88e-05
+    },
+    "turbulent_schmidt_number": 0.7,
+    "gas_thermal_diffusion": false,
+    "gas_multicomponent_diffusion": false,
+    "gas_inlet_diffusion": false,
+    "uds_inlet_diffusion": true,
+    "species_diffusion_energy_source": true,
+    "viscous_energy_dissipation": false,
+    "enthalpy_reference_temperature_K": 298.15,
+    "boundary_direction": "Normal to Boundary",
+    "boundary_reference_frame": "Absolute",
+    "outlet_backflow_pressure_specification": "Total Pressure",
+    "prevent_reverse_flow": false,
+    "stationary_wall": true,
+    "wall_roughness_height_m": 0,
+    "wall_h2o_mass_flux": 0
+  },
+  "turbulence_intensity_units": {
+    "inlet_api_and_case_fraction": 0.01,
+    "outlet_backflow_api_and_case_fraction": 0.01,
+    "gui_percent_input": 1,
+    "basis": "Official PyFluent species example explicitly maps 10 percent to API 0.1; final case stores 0.01 for both boundaries.",
+    "official_source": "https://fluent.docs.pyansys.com/version/stable/examples/00-fluent/species_transport.html"
+  },
+  "recorded_production_run_controls": {
+    "parameters": {
+      "time_step_count": 100000,
+      "time_step_size": 1e-07,
+      "max_iter_per_time_step": 250,
+      "reporting_interval": 1,
+      "profile_update_interval": 1
+    },
+    "transient_controls": {
+      "type": "Fixed",
+      "method": "User-Specified",
+      "flow_time": 0,
+      "predict_next": false,
+      "fixed_periodic": {
+        "enabled": false
+      }
+    },
+    "options": {
+      "extrapolate_variables": false
+    },
+    "data_sampling": {
+      "enabled": false
+    },
+    "compute_resources": {}
+  },
+  "documentation_changes_only": true,
+  "solver_launched_for_this_documentation_change": false,
+  "data_or_udf_modified": false,
+  "fluent_2024_R2_tested": false,
+  "public_native_read_status": "NOT_VERIFIED_RUNTIME_BLOCKED",
+  "limits": [
+    "No pristine-session default diff was performed; inherited values are labeled separately.",
+    "Menu placement varies by release; official menu documentation does not prove the complete procedure has run in 2024 R2.",
+    "No private paths or original script contents are included in this review record."
+  ]
+}

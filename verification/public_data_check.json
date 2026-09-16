@@ -1,0 +1,178 @@
+{
+  "status": "MATCHES_RECORDED_EXPORT_STRUCTURE",
+  "scope": "CSV and history structure, finite values and display-mask diagnostics. No volume/mass integrals, HDF audit, solver execution or physical validation.",
+  "cells": 30000,
+  "columns": 39,
+  "unique_cell_ids": 30000,
+  "nonfinite_values": 0,
+  "history_rows": 100001,
+  "history_steps": [
+    0,
+    100000
+  ],
+  "history_nonfinite": 0,
+  "radius_mask": {
+    "liquid_loading_min_exclusive": 1e-12,
+    "number_min_exclusive": 0,
+    "valid_cells": 15035,
+    "radius_nm_min": 7.227061527,
+    "radius_nm_max": 129.79248819999998,
+    "raw_global_radius_nm_max": 780768.1243
+  },
+  "field_ranges": {
+    "x-coordinate": {
+      "min": 0.0004998930655,
+      "max": 0.2496000597
+    },
+    "y-coordinate": {
+      "min": 0.0001295725543,
+      "max": 0.01993309571
+    },
+    "energy-source-cached-w-m3": {
+      "min": -148207.002,
+      "max": 1272687808.0
+    },
+    "energy-source-temperature-jacobian-w-m3-k": {
+      "min": -101126102.4,
+      "max": 0.0
+    },
+    "growth-mass-applied-kg-m3-s": {
+      "min": -0.06500904946,
+      "max": 567.144889
+    },
+    "birth-mass-applied-kg-m3-s": {
+      "min": 0.0,
+      "max": 0.001921190861
+    },
+    "nucleation-cap-flag": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "empty-droplet-number-sink-m3-s": {
+      "min": 0.0,
+      "max": 922158257.8
+    },
+    "droplet-number-density-m3": {
+      "min": 0.0,
+      "max": 1.056793281e+16
+    },
+    "liquid-mass-fraction-beta": {
+      "min": 0.0,
+      "max": 0.01881537478
+    },
+    "evaporation-kg-m3-s": {
+      "min": 0.0,
+      "max": 0.06500904946
+    },
+    "positive-condensation-kg-m3-s": {
+      "min": 0.0,
+      "max": 567.144889
+    },
+    "nucleation-raw-m3-s": {
+      "min": 0.0,
+      "max": 1.177480326e+21
+    },
+    "model-risk-flag": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "source-limiter-flag": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "ideal-z": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "ideal-fugacity-coefficient": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "surface-tension-n-m": {
+      "min": 0.05561221489,
+      "max": 0.06817735131
+    },
+    "liquid-density-kg-m3": {
+      "min": 945.6689946,
+      "max": 988.6143437
+    },
+    "condensation-source-applied-kg-m3-s": {
+      "min": -0.06500904946,
+      "max": 567.144889
+    },
+    "condensation-source-raw-kg-m3-s": {
+      "min": -0.06500904946,
+      "max": 567.144889
+    },
+    "droplet-growth-rate-m-s": {
+      "min": -0.0005460584182,
+      "max": 0.002660916979
+    },
+    "droplet-radius-m": {
+      "min": 0.0,
+      "max": 0.0007807681243
+    },
+    "critical-radius-m": {
+      "min": 0.0,
+      "max": 5.049933604e-06
+    },
+    "nucleation-applied-m3-s": {
+      "min": 0.0,
+      "max": 1.177480326e+21
+    },
+    "h2o-supercooling-k": {
+      "min": -17.22807864,
+      "max": 27.79249012
+    },
+    "h2o-dewpoint-k": {
+      "min": 334.3154247,
+      "max": 372.7151832
+    },
+    "h2o-supersaturation": {
+      "min": 0.5568699576,
+      "max": 3.549874059
+    },
+    "droplet-number-per-kg-gas-div-1e15": {
+      "min": -3.944892745e-12,
+      "max": 3.658293749
+    },
+    "liquid-loading-kg-liquid-per-kg-gas": {
+      "min": -5.529564694e-12,
+      "max": 0.01917618183
+    },
+    "co2": {
+      "min": 0.9071632286,
+      "max": 0.924558834
+    },
+    "h2o": {
+      "min": 0.07544116605,
+      "max": 0.09283677143
+    },
+    "mach-number": {
+      "min": 0.004625315627,
+      "max": 1.514057808
+    },
+    "radial-velocity": {
+      "min": -13.6762328,
+      "max": 6.157914723
+    },
+    "axial-velocity": {
+      "min": 1.484894513,
+      "max": 452.1381795
+    },
+    "density": {
+      "min": 1.752070017,
+      "max": 5.977466358
+    },
+    "temperature": {
+      "min": 321.7567435,
+      "max": 389.9432618
+    },
+    "absolute-pressure": {
+      "min": 124531.3301,
+      "max": 499271.8618
+    }
+  },
+  "cell_counts_are_not_mass_fractions": true,
+  "checked_at_utc": "2026-09-16T02:44:01.260918+00:00"
+}

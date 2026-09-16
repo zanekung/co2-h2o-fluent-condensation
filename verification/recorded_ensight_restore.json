@@ -1,0 +1,22 @@
+{
+  "English": {
+    "native_restore_return": 0,
+    "render_width_height": [
+      1268,
+      804
+    ],
+    "png_bytes_identical": true,
+    "expected_sha256": "aade9f3567db62e7c8869efa65717bf23f6578cea6536a1cb823bd773adaadf0",
+    "restored_sha256": "aade9f3567db62e7c8869efa65717bf23f6578cea6536a1cb823bd773adaadf0"
+  },
+  "Chinese": {
+    "native_restore_return": 0,
+    "render_width_height": [
+      2639,
+      1673
+    ],
+    "png_bytes_identical": true,
+    "expected_sha256": "e512a160ef0e9c7e90a65578b18622cee1ff8cb13aed50b81856fa42cf027b5d",
+    "restored_sha256": "e512a160ef0e9c7e90a65578b18622cee1ff8cb13aed50b81856fa42cf027b5d"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "compile_exit": 0,
+  "compile_output": "",
+  "test_exit": 0,
+  "test_output": "Energy Jacobians at dT=.005/.01/.02 K: -4.369279137353e+11 -4.369282660637e+11 -4.369296753938e+11 W/m3/K\n99 checks; 0 failures. This is implementation verification, not experiment validation.\n",
+  "scope": "Numerical core and phase-transfer contribution verification only; no Fluent solve and no experimental validation."
+}

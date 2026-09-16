@@ -1,0 +1,29 @@
+kind,index,name,unit,meaning
+UDS,0,liquid-loading-kg-liquid-per-kg-gas,kg/kg-gas,liquid loading Y_l
+UDS,1,droplet-number-per-kg-gas-div-1e15,1e15/kg-gas,N divided by 1e15
+UDM,0,h2o-supersaturation,1,ideal partial pressure divided by water saturation pressure
+UDM,1,h2o-dewpoint-k,K,inverse water saturation temperature at local vapor partial pressure
+UDM,2,h2o-supercooling-k,K,dew point minus gas temperature
+UDM,3,nucleation-applied-m3-s,1/m3/s,applied J after local vapor limiter
+UDM,4,critical-radius-m,m,critical nucleus radius
+UDM,5,droplet-radius-m,m,mean monodisperse radius; zero where no droplets
+UDM,6,droplet-growth-rate-m-s,m/s,unlimited Gyarmathy radius growth
+UDM,7,condensation-source-raw-kg-m3-s,kg/m3/s,raw net phase change source
+UDM,8,condensation-source-applied-kg-m3-s,kg/m3/s,applied net phase change source
+UDM,9,liquid-density-kg-m3,kg/m3,liquid water density
+UDM,10,surface-tension-n-m,N/m,liquid water surface tension
+UDM,11,ideal-fugacity-coefficient,1,constant one
+UDM,12,ideal-Z,1,constant one
+UDM,13,source-limiter-flag,0_or_1,local vapor or liquid inventory limiter active
+UDM,14,model-risk-flag,0_or_1,invalid values or temperatures outside declared useful region
+UDM,15,nucleation-raw-m3-s,1/m3/s,ICCT J before inventory limiter; finite cap may apply
+UDM,16,positive-condensation-kg-m3-s,kg/m3/s,applied positive source
+UDM,17,evaporation-kg-m3-s,kg/m3/s,applied evaporation magnitude
+UDM,18,liquid-mass-fraction-beta,kg/kg-total,liquid loading divided by one plus loading
+UDM,19,droplet-number-density-m3,1/m3,gas density times unscaled N
+UDM,20,empty-droplet-number-sink-m3-s,1/m3/s,numerically empty population removal
+UDM,21,nucleation-cap-flag,0_or_1,ICCT J reached numerical cap 1e35
+UDM,22,birth-mass-applied-kg-m3-s,kg/m3/s,critical seed mass times applied J
+UDM,23,growth-mass-applied-kg-m3-s,kg/m3/s,applied existing-droplet growth or evaporation
+UDM,24,energy-source-temperature-jacobian-w-m3-k,W/m3/K,nonpositive dSe/dT at frozen ADJUST state; zero across a major branch switch
+UDM,25,energy-source-cached-w-m3,W/m3,physical energy source cached at the same ADJUST state as mass sources

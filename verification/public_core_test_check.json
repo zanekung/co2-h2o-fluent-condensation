@@ -1,0 +1,31 @@
+{
+  "checked_at_utc": "2026-09-16T02:43:48.998337+00:00",
+  "status": "PASS",
+  "scope": "Independent C core and frozen-composition quasi-1D consistency only. No Fluent hooks, CFD solve or physical validation.",
+  "compiler_style": "msvc",
+  "solver_started": false,
+  "tests": [
+    {
+      "name": "core",
+      "sources": [
+        "tests/core/test_core.c",
+        "udf/condensation_core.c"
+      ],
+      "compile_exit": 0,
+      "compile_output": "",
+      "test_exit": 0,
+      "test_output": "Energy Jacobians at dT=.005/.01/.02 K: -4.369279137353e+11 -4.369282660637e+11 -4.369296753938e+11 W/m3/K\n99 checks; 0 failures. This is implementation verification, not experiment validation.\n"
+    },
+    {
+      "name": "quasi1d",
+      "sources": [
+        "tests/core/test_quasi1d.c"
+      ],
+      "compile_exit": 0,
+      "compile_output": "",
+      "test_exit": 0,
+      "test_output": "cp_derivative_rel_error=4.72447636568e-11 h0_rel_error=8.08965233948e-16 p0_rel_error=2.22044604925e-16 mdot_rel_error=1.96731519964e-13\ngeometry_slope_abs_error=1.9964713216e-10 continuity_scaled_error=8.8501405516e-09\nTstar_K=342.880017599 Pstar_Pa=274535.152515 wstar_m_s=306.655611071 dry_mdot_kg_s=0.1497934423\naxis x=0 T=389.802078618 p=498797.458322 u=20.0567355712 M=0.0616572058404 A_At=9.56679286101\naxis x=0.1 T=342.880017599 p=274535.152515 u=306.655611071 M=1 A_At=1\naxis x=0.25 T=269.62096557 p=95045.662586 u=482.440858968 M=1.75613305763 A_At=1.44372333393\nchecks=30016 failures=0 mesh_points=30000\n"
+    }
+  ],
+  "quasi1d_test_source_matches_udf_source_bytes": true
+}

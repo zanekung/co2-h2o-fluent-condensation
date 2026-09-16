@@ -1,0 +1,914 @@
+{
+  "checked_at_utc": "2026-09-13T06:22:45.486114+00:00",
+  "classification": "STUDENT_SOFTWARE_VALIDATION_ONLY_NOT_PUBLICATION_DATA",
+  "source": "<RUN>\\final_exports\\final-100000.dat.h5",
+  "bytes": 12854565,
+  "sha256": "216b171b3ae85821812082594ad652b02ad5650f90a23e54378c7ee425295e13",
+  "numeric_dataset_count": 110,
+  "values_checked": 2364010,
+  "nonfinite_values": 0,
+  "datasets": [
+    {
+      "dataset": "results/1/phase-1/cells/SV_BETA_NH/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_BETA_PH/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_BF_V/1",
+      "shape": [
+        30000,
+        2
+      ],
+      "values": 60000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_DENSITY/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_DENSITY_M1/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_DENSITY_M2/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_ENERGY_M1/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_ENERGY_M2/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_H/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_K/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_K_M1/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_K_M2/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_MU_LAM/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_MU_T/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_O/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_O_M1/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_O_M2/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_P/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_P_M1/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_P_M2/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_T/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_T_M1/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_T_M2/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_U/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_UDM_I/1",
+      "shape": [
+        30000,
+        26
+      ],
+      "values": 780000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_UDS_0/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_UDS_0_M1/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_UDS_0_M2/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_UDS_1/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_UDS_1_M1/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_UDS_1_M2/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_U_M1/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_U_M2/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_V/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_V_M1/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_V_M2/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_WALL_DIST/1",
+      "shape": [
+        30000
+      ],
+      "values": 30000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_Y/1",
+      "shape": [
+        30000,
+        2
+      ],
+      "values": 60000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_Y_M1/1",
+      "shape": [
+        30000,
+        2
+      ],
+      "values": 60000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/cells/SV_Y_M2/1",
+      "shape": [
+        30000,
+        2
+      ],
+      "values": 60000,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_ARTIFICIAL_WALL_FLAG/1",
+      "shape": [
+        150
+      ],
+      "values": 150,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_DENSITY/1",
+      "shape": [
+        150
+      ],
+      "values": 150,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_DENSITY/2",
+      "shape": [
+        400
+      ],
+      "values": 400,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_DT_BC_SOURCE/1",
+      "shape": [
+        150
+      ],
+      "values": 150,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_DT_BC_SOURCE/2",
+      "shape": [
+        400
+      ],
+      "values": 400,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_FLUX/1",
+      "shape": [
+        60475
+      ],
+      "values": 60475,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_FLUX_M1/1",
+      "shape": [
+        60475
+      ],
+      "values": 60475,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_FLUX_M2/1",
+      "shape": [
+        60475
+      ],
+      "values": 60475,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_H/1",
+      "shape": [
+        150
+      ],
+      "values": 150,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_H/2",
+      "shape": [
+        400
+      ],
+      "values": 400,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_HEAT_FLUX/1",
+      "shape": [
+        150
+      ],
+      "values": 150,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_HEAT_FLUX/2",
+      "shape": [
+        400
+      ],
+      "values": 400,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_HEAT_FLUX_SENSIBLE/1",
+      "shape": [
+        150
+      ],
+      "values": 150,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_K/1",
+      "shape": [
+        150
+      ],
+      "values": 150,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_K/2",
+      "shape": [
+        400
+      ],
+      "values": 400,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_MACH/1",
+      "shape": [
+        150
+      ],
+      "values": 150,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_O/1",
+      "shape": [
+        150
+      ],
+      "values": 150,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_O/2",
+      "shape": [
+        400
+      ],
+      "values": 400,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_P/1",
+      "shape": [
+        60475
+      ],
+      "values": 60475,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_RAD_HEAT_FLUX/1",
+      "shape": [
+        150
+      ],
+      "values": 150,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_RAD_HEAT_FLUX/2",
+      "shape": [
+        400
+      ],
+      "values": 400,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_RAD_HEAT_FLUX_EXTERIOR/1",
+      "shape": [
+        150
+      ],
+      "values": 150,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_RAD_HEAT_FLUX_EXTERIOR/2",
+      "shape": [
+        400
+      ],
+      "values": 400,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_T/1",
+      "shape": [
+        150
+      ],
+      "values": 150,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_T/2",
+      "shape": [
+        400
+      ],
+      "values": 400,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_T_M1/1",
+      "shape": [
+        75
+      ],
+      "values": 75,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_T_M2/1",
+      "shape": [
+        75
+      ],
+      "values": 75,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_U/1",
+      "shape": [
+        150
+      ],
+      "values": 150,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_U/2",
+      "shape": [
+        400
+      ],
+      "values": 400,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_UDM_I/1",
+      "shape": [
+        150,
+        26
+      ],
+      "values": 3900,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_UDM_I/2",
+      "shape": [
+        400,
+        26
+      ],
+      "values": 10400,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_UDS_0/1",
+      "shape": [
+        150
+      ],
+      "values": 150,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_UDS_0/2",
+      "shape": [
+        400
+      ],
+      "values": 400,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_UDS_1/1",
+      "shape": [
+        150
+      ],
+      "values": 150,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_UDS_1/2",
+      "shape": [
+        400
+      ],
+      "values": 400,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_U_M1/1",
+      "shape": [
+        75
+      ],
+      "values": 75,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_U_M2/1",
+      "shape": [
+        75
+      ],
+      "values": 75,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_V/1",
+      "shape": [
+        150
+      ],
+      "values": 150,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_V/2",
+      "shape": [
+        400
+      ],
+      "values": 400,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_V_M1/1",
+      "shape": [
+        75
+      ],
+      "values": 75,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_V_M2/1",
+      "shape": [
+        75
+      ],
+      "values": 75,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_WALL_DIFFUSIVE_BC_MFLUX/1",
+      "shape": [
+        400
+      ],
+      "values": 400,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_WALL_SHEAR/1",
+      "shape": [
+        400,
+        3
+      ],
+      "values": 1200,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_WALL_T_INNER/1",
+      "shape": [
+        400
+      ],
+      "values": 400,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_WALL_V/1",
+      "shape": [
+        400,
+        3
+      ],
+      "values": 1200,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_WALL_VV/1",
+      "shape": [
+        400,
+        3
+      ],
+      "values": 1200,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_WALL_YPLUS/1",
+      "shape": [
+        400
+      ],
+      "values": 400,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_WALL_YPLUS_UTAU/1",
+      "shape": [
+        400
+      ],
+      "values": 400,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_W_M1/1",
+      "shape": [
+        75
+      ],
+      "values": 75,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_W_M2/1",
+      "shape": [
+        75
+      ],
+      "values": 75,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_Y/1",
+      "shape": [
+        150,
+        2
+      ],
+      "values": 300,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/1/phase-1/faces/SV_Y/2",
+      "shape": [
+        400,
+        2
+      ],
+      "values": 800,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/residuals/phase-1/continuity/data",
+      "shape": [
+        518,
+        4
+      ],
+      "values": 2072,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/residuals/phase-1/continuity/iterations",
+      "shape": [
+        518
+      ],
+      "values": 518,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/residuals/phase-1/energy/data",
+      "shape": [
+        518,
+        4
+      ],
+      "values": 2072,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/residuals/phase-1/energy/iterations",
+      "shape": [
+        518
+      ],
+      "values": 518,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/residuals/phase-1/h2o/data",
+      "shape": [
+        518,
+        4
+      ],
+      "values": 2072,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/residuals/phase-1/h2o/iterations",
+      "shape": [
+        518
+      ],
+      "values": 518,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/residuals/phase-1/k/data",
+      "shape": [
+        518,
+        4
+      ],
+      "values": 2072,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/residuals/phase-1/k/iterations",
+      "shape": [
+        518
+      ],
+      "values": 518,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/residuals/phase-1/omega/data",
+      "shape": [
+        518,
+        4
+      ],
+      "values": 2072,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/residuals/phase-1/omega/iterations",
+      "shape": [
+        518
+      ],
+      "values": 518,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/residuals/phase-1/uds-0/data",
+      "shape": [
+        518,
+        4
+      ],
+      "values": 2072,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/residuals/phase-1/uds-0/iterations",
+      "shape": [
+        518
+      ],
+      "values": 518,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/residuals/phase-1/uds-1/data",
+      "shape": [
+        518,
+        4
+      ],
+      "values": 2072,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/residuals/phase-1/uds-1/iterations",
+      "shape": [
+        518
+      ],
+      "values": 518,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/residuals/phase-1/x-velocity/data",
+      "shape": [
+        518,
+        4
+      ],
+      "values": 2072,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/residuals/phase-1/x-velocity/iterations",
+      "shape": [
+        518
+      ],
+      "values": 518,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/residuals/phase-1/y-velocity/data",
+      "shape": [
+        518,
+        4
+      ],
+      "values": 2072,
+      "nonfinite_values": 0
+    },
+    {
+      "dataset": "results/residuals/phase-1/y-velocity/iterations",
+      "shape": [
+        518
+      ],
+      "values": 518,
+      "nonfinite_values": 0
+    }
+  ],
+  "scope": "All numeric HDF5 results datasets in this saved data file; no Fluent reload, convergence or physical-validity certification."
+}

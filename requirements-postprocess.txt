@@ -1,0 +1,4 @@
+# Optional: only for the Python automation examples in docs/postprocessing.md.
+# Fluent/EnSight GUI viewing and manual setup do not require this package.
+# Historical version; a clean-machine installation has not been validated.
+ansys-pyensight-core==0.11.0
